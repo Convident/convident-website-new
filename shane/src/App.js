@@ -4,6 +4,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "photoswipe/dist/photoswipe.css";
+import HomeThree from "./views/all-home-version/HomeThree";
 
 const App = () => {
   useEffect(() => {
@@ -13,7 +14,8 @@ const App = () => {
   return (
     <div className="shane_tm_all_wrap">
       <ScrollToTop />
-      <AllRouter />
+      
+      <HomeThree />
     </div>
   );
 };

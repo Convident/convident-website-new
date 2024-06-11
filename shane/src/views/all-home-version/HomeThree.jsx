@@ -10,29 +10,27 @@ import Testimonial from "../../components/testimonial/TestimonialTwo";
 import News from "../../components/news/NewsTwo";
 import CallToAction from "../../components/calltoactions/CallToActionTwo";
 import Footer from "../../components/footer/Footer";
+import HomeLogo from "../../components/HomeLogo";
 
 const HomeThree = () => {
   return (
     <div className="home-three">
       <Header />
       {/* End Header Section */}
+      
+      
 
       <Slider />
       {/* End Slider Section */}
+      
 
       <About />
       {/* End About Section */}
 
-      <Portfolio />
-      {/* End Portfolio Section */}
-
       <Skills />
       {/* End Skills Section */}
 
-      <Video />
-      {/* End Video Section */}
-
-      <div className="shane_tm_section">
+    {/*      <div className="shane_tm_section">
         <div className="shane_tm_partners">
           <div className="container">
             <div className="partners_inner">
@@ -42,6 +40,7 @@ const HomeThree = () => {
         </div>
       </div>
       {/* End shane_tm_partners */}
+  
 
       <div className="shane_tm_section">
         <div className="shane_tm_testimonials">
@@ -50,7 +49,7 @@ const HomeThree = () => {
               <div className="left" data-aos="fade-up" data-aos-duration="1200">
                 <div className="shane_tm_title">
                   <span>Testimonials</span>
-                  <h3>What clients say about my portfolio template</h3>
+                  <h3>Achieve your language learning goals</h3>
                 </div>
               </div>
 
@@ -69,6 +68,22 @@ const HomeThree = () => {
 
       <News />
       {/* End Blog Section */}
+
+      
+
+      <Video />
+      {/* End Video Section */}
+
+      {/*<Portfolio />*/}
+      {/* End Portfolio Section */}
+
+      
+
+      
+
+      
+
+      
 
       <CallToAction />
       {/* End CallToAction */}

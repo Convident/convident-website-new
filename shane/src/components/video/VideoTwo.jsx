@@ -38,7 +38,7 @@ const Video = () => {
             data-aos-duration="1200"
             data-aos-delay="50"
           >
-            I am delivering beautiful digital products for my clients
+            Explore Convident
           </h3>
 
           <div
@@ -48,7 +48,7 @@ const Video = () => {
             data-aos-delay="100"
           >
             <button className="popup-youtube" onClick={() => setOpen(true)}>
-              Watch Video
+              Watch Demo
             </button>
           </div>
         </div>

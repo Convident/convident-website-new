@@ -41,11 +41,13 @@ const Header = () => {
               <li>
                 <a href="#about">About</a>
               </li>
+              {/*
               <li>
                 <a href="#portfolio">Portfolio</a>
               </li>
+  */}
               <li>
-                <a href="#news">News</a>
+                <a href="#news">Features</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -57,7 +59,7 @@ const Header = () => {
                   rel="noopener noreferrer"
                   href="https://themeforest.net/item/shane-react-personal-portfolio-template/32642263"
                 >
-                  Buy Now
+                  Get Started
                 </a>
               </li>
             </Scrollspy>

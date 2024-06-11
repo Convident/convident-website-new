@@ -30,7 +30,7 @@ const About = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>About Me</span>
+                  <span>About Convident</span>
                   <h3>Creative Independent Web Developer based in USA</h3>
                 </div>
                 <div

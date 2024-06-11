@@ -36,7 +36,7 @@ const CallToActionTwo = () => {
 
         <div className="talk_inner">
           <div className="text" data-aos="fade-up" data-aos-duration="1200">
-            <h3>Let's work together!</h3>
+            <h3>Learn more</h3>
           </div>
 
           <div
@@ -46,7 +46,7 @@ const CallToActionTwo = () => {
             data-aos-delay="100"
           >
             <button className="white-fill-bg" onClick={toggleModalOne}>
-              Make an enquiry
+              Contact us
             </button>
           </div>
         </div>

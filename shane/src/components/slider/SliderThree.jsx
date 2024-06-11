@@ -23,7 +23,7 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                Conversing Confidently
+                Conversing confidently
                 <span className="overlay_effect"></span>
               </span>
             </div>

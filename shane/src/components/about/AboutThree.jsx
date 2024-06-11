@@ -30,8 +30,8 @@ const AboutThree = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <span>About Me</span>
-                  <h3>Creative Software Engineer based in New York, USA</h3>
+                  <span>About Convident</span>
+                  <h3>Overcome the Intermediate Plateau</h3>
                 </div>
                 <div
                   className="text"
@@ -39,11 +39,9 @@ const AboutThree = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    I'm web designer, and I'm very passionate and dedicated to
-                    my work. With 20 years experience as a professional web
-                    developer, I have acquired the skills and knowledge
-                    necessary to make your project a success. I enjoy every step
-                    of the design process, from discussion and collaboration.
+                    Feeling lost and demotivated as an intermediate language learner?
+                    Convident is here to help you measure progress in your language
+                    learning journey with a clear roadmap to fluency. 
                   </p>
                 </div>
                 <div
@@ -51,8 +49,8 @@ const AboutThree = () => {
                   data-aos="fade-up"
                   data-aos-duration="1200"
                 >
-                  <a href="img/resume/resume.jpg" download>
-                    Download CV
+                  <a href="#news">
+                    Learn More
                   </a>
                 </div>
               </div>

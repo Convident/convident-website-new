@@ -113,8 +113,8 @@ const Portfolio = () => {
             <div className="shane_tm_title">
               <div className="title_flex">
                 <div className="left">
-                  <span>Portfolio</span>
-                  <h3>Creative Portfolio</h3>
+                  <span>Features</span>
+                  <h3>Features</h3>
                 </div>
               </div>
             </div>

@@ -1,4 +1,5 @@
 @charset "utf-8";
+/*import "./fonts/font/Poppins-Black.otf"; */
 /*
 /*	Copyright (c) 2021 ib-themes
 /*	Author: ib-themes
@@ -39,7 +40,7 @@ body {
   letter-spacing: 0.5px;
   word-wrap: break-word;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #cdd5bc;
   color: #767676;
   overflow: hidden;
 }
@@ -484,6 +485,7 @@ h6 {
   right: 0px;
   z-index: 10;
   transition: all 0.3s ease;
+  background-color: #da2d2d;
 }
 .shane_tm_topbar .topbar_inner {
   width: 100%;
@@ -3349,3 +3351,15 @@ body.intro .loader_line:after {
 .modal-video {
   background-color: rgba(0, 0, 0, 0.75) !important;
 }
+
+/*our fonts*/
+
+/*
+@font-face {
+  font-family: "PoppinsBlack";
+  src: 
+    url("Poppins-Black.otf") format("opentype");
+  font-weight: normal;
+}
+*/
+

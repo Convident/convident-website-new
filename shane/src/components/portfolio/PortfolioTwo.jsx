@@ -9,7 +9,7 @@ const tabListContent = [
     porftoliItems: [
       {
         img: "/img/portfolio/1.jpg",
-        title: " My Story",
+        title: "Customized Milestones",
         meta: "Design",
         portfolioLink: "https://www.instagram.com/",
       },
@@ -114,7 +114,7 @@ const Portfolio = () => {
               <div className="title_flex">
                 <div className="left">
                   <span>Portfolio</span>
-                  <h3>Creative Portfolio</h3>
+                  <h3>Features</h3>
                 </div>
               </div>
             </div>

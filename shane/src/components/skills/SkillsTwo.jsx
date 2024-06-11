@@ -13,13 +13,12 @@ const SkillsTwo = () => {
                 data-aos-duration="1200"
               >
                 <div className="shane_tm_title">
-                  <h3>I have high skills in developing and programming</h3>
+                  <h3>Customized language learning</h3>
                 </div>
                 <div className="text">
                   <p>
-                    I am working on a professional, visually sophisticated and
-                    technologically proficient, responsive and multi-functional
-                    personal portfolio template Shane.
+                  Every language learner has different goals, strengths, and learning strategies. 
+                  Convident gives you a tailored approach for an effective learning experience.
                   </p>
                 </div>
               </div>

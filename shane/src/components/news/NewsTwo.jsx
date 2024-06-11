@@ -24,8 +24,8 @@ const NewsTwo = () => {
       <div className="shane_tm_news">
         <div className="container">
           <div className="shane_tm_title">
-            <span>News</span>
-            <h3>Latest News</h3>
+            <span>placeholder</span> 
+            <h3>Features</h3>
           </div>
           {/* End shane_tm_title */}
           <div className="news_list">
@@ -47,10 +47,10 @@ const NewsTwo = () => {
 
                   <div className="details">
                     <h3 className="title" onClick={toggleModalOne}>
-                      Developers watch out for these burnout symptoms
+                      Identify Areas of Improvement
                     </h3>
                     <p className="date">
-                      By <a href="#">Alex Watson</a> <span>20 May 2020</span>
+                      Understand Proficiency and Challenges
                     </p>
                   </div>
                   {/* End details */}
@@ -85,31 +85,18 @@ const NewsTwo = () => {
                           {/* End image */}
                           <div className="details">
                             <h3 className="title">
-                              How to be appreciated for your hard work as a
-                              developer
+                            Identify Areas of Improvement
                             </h3>
                             <p className="date">
-                              By <a href="#">Brook Kennedy</a>{" "}
-                              <span>07 April 2020</span>
+                            Understand Proficiency and Challenges
                             </p>
                           </div>
                           {/* End details */}
                           <div className="description">
                             <p>
-                              As Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities.
+                            Your journey at convident starts with a placement quiz to understand proficiency and challenges. 
                             </p>
-                            <blockquote>
+                            {/*                            <blockquote>
                               As Vintage decided to have a closer look into
                               fast-paced New York web design realm in person. As
                               Vintage decided to have a closer look into
@@ -140,6 +127,7 @@ const NewsTwo = () => {
                               get to acquaint with most diverse and
                               exceptionally captivating personalities.
                             </p>
+                            */}
                           </div>
                           {/* End description */}
                           <div className="news_share">
@@ -179,11 +167,10 @@ const NewsTwo = () => {
 
                   <div className="details">
                     <h3 className="title" onClick={toggleModalTwo}>
-                      How to be appreciated for your hard work as a developer
+                      Weekly Customized Milestones
                     </h3>
                     <p className="date">
-                      By <a href="#">Brook Kennedy</a>{" "}
-                      <span>07 April 2020</span>
+                      Stay motivated with a clear roadmap
                     </p>
                   </div>
                   {/* End details */}
@@ -217,30 +204,20 @@ const NewsTwo = () => {
                           {/* End image */}
                           <div className="details">
                             <h3 className="title">
-                              How to be appreciated for your hard work as a
-                              developer
+                              Weekly customized milestones
                             </h3>
                             <p className="date">
-                              By <a href="#">Brook Kennedy</a>{" "}
-                              <span>07 April 2020</span>
+                              Stay motivated with a clear roadmap
                             </p>
                           </div>
                           {/* End details */}
                           <div className="description">
                             <p>
-                              As Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities. As
-                              Vintage decided to have a closer look into
-                              fast-paced New York web design realm in person, we
-                              get to acquaint with most diverse and
-                              exceptionally captivating personalities.
+                            Convident sets customized milestones based on your learning goals and current skills.
+                            Each week, we provide the next milestone to work on, along with resource recommendations 
+                            and targeted practice suggestions.
                             </p>
+                            {/*
                             <blockquote>
                               As Vintage decided to have a closer look into
                               fast-paced New York web design realm in person. As
@@ -274,11 +251,16 @@ const NewsTwo = () => {
                             </p>
                           </div>
                           {/* End description */}
+                          {/*
+                          </div> 
                           <div className="news_share">
                             <Social />
                             {/* End social share */}
+                  
                           </div>
                           {/* End news share */}
+                    
+                      
                         </div>
                       </div>
                     </div>
@@ -310,10 +292,10 @@ const NewsTwo = () => {
 
                   <div className="details">
                     <h3 className="title" onClick={toggleModalThree}>
-                      How designers and developers can collaborate better
+                      Tailored Resources
                     </h3>
                     <p className="date">
-                      By <a href="#">Paola Atkins</a> <span>02 March 2020</span>
+                      Practice targeted to your goals 
                     </p>
                   </div>
                   {/* END DETAILS */}

@@ -38,7 +38,7 @@ const NewsTwo = () => {
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/4.jpg"
+                          process.env.PUBLIC_URL + "img/news/thinking.jpg"
                         })`,
                       }}
                     ></div>
@@ -77,7 +77,7 @@ const NewsTwo = () => {
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/4.jpg"
+                                  process.env.PUBLIC_URL + "img/news/thinking.jpg"
                                 })`,
                               }}
                             ></div>
@@ -158,7 +158,7 @@ const NewsTwo = () => {
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/9.jpg"
+                          process.env.PUBLIC_URL + "img/news/roadmap.jpg"
                         })`,
                       }}
                     ></div>
@@ -196,7 +196,7 @@ const NewsTwo = () => {
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/9.jpg"
+                                  process.env.PUBLIC_URL + "img/news/roadmap.jpg"
                                 })`,
                               }}
                             ></div>
@@ -283,7 +283,7 @@ const NewsTwo = () => {
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/8.jpg"
+                          process.env.PUBLIC_URL + "img/news/practice-photo.jpg"
                         })`,
                       }}
                     ></div>
@@ -325,7 +325,7 @@ const NewsTwo = () => {
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/8.jpg"
+                                  process.env.PUBLIC_URL + "img/news/practice-photo.jpg"
                                 })`,
                               }}
                             ></div>
@@ -333,8 +333,7 @@ const NewsTwo = () => {
                           {/* END IMAGE */}
                           <div className="details">
                             <h3 className="title">
-                              How to be appreciated for your hard work as a
-                              developer
+                              Tailored Resources
                             </h3>
                             <p className="date">
                               By <a href="#">Brook Kennedy</a>{" "}

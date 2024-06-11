@@ -20,8 +20,10 @@ const Header = () => {
 
   return (
     <>
-      <div className="shane_tm_topbar">
-        <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
+      <div className="shane_tm_topbar "
+       >
+        <div className={navbar ? "topbar_inner opened" : "topbar_inner"}
+        >
           <div className="logo">
             <NavLink to="/">
               <img src="/img/logo/new/dark.png" alt="partners brand" />
@@ -31,7 +33,7 @@ const Header = () => {
           <div className="menu">
             <Scrollspy
               className="anchor_nav"
-              items={["home", "about", "portfolio", "news", "contact"]}
+              items={["home", "about", "news", "contact"]}
               currentClassName="current"
               offset={-200}
             >

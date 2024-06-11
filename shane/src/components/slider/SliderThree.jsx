@@ -7,7 +7,7 @@ const Slider = () => {
         <div className="background">
           <div
             className="image"
-            style={{ backgroundImage: "url(img/slider/1.jpg)" }}
+            style={{ backgroundImage: "url(img/slider/logo-with-background-image.png)" }}
           ></div>
         </div>
         {/* End .background */}
@@ -16,7 +16,7 @@ const Slider = () => {
           <div className="content">
             <div className="name_wrap">
               <h3>
-                <span>Convident</span> LLC<span className="overlay_effect"></span>
+                <span>Convident</span><span className="overlay_effect"></span>
               </h3>
             </div>
             {/* End title */}

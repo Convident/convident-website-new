@@ -17,7 +17,7 @@ const AboutThree = () => {
 
                   <div
                     className="main"
-                    style={{ backgroundImage: "url(img/about/3.jpg)" }}
+                    style={{ backgroundImage: "url(img/about/phone.jpg)" }}
                   ></div>
                 </div>
                 {/* End image */}

@@ -1,4 +1,5 @@
 import React from "react";
+import Social from "../SocialTwo";
 
 const Footer = () => {
   return (
@@ -7,6 +8,7 @@ const Footer = () => {
         <div className="shane_tm_copyright">
           <div className="container">
             <div className="inner">
+              <Social />
               <p>
                 &copy; {new Date().getFullYear()} by{" "}
                 <a

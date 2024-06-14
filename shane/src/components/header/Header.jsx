@@ -26,7 +26,7 @@ const Header = () => {
         >
           <div className="logo">
             <NavLink to="/">
-              <img src="/img/logo/new/dark.png" alt="partners brand" />
+              <img src="/img/logo/new/convident logo2.jpg" alt="Convident" className="resized-logo-image"/>
             </NavLink>
           </div>
           {/* End logo */}
@@ -78,7 +78,7 @@ const Header = () => {
             <div className="topbar_in">
               <div className="logo">
                 <NavLink to="/">
-                  <img src="/img/logo/new/dark.png" alt="partners brand" />
+                  <img src="/img/logo/new/convident logo2.jpg" alt="Convident" classname="resized-logo-image"/>
                 </NavLink>
               </div>
               {/* End logo */}
@@ -117,13 +117,8 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#portfolio" onClick={handleClick}>
-                    Portfolio
-                  </a>
-                </li>
-                <li>
                   <a href="#news" onClick={handleClick}>
-                    News
+                    Features
                   </a>
                 </li>
                 <li>
@@ -138,7 +133,7 @@ const Header = () => {
                     rel="noreferrer"
                     href="https://themeforest.net/"
                   >
-                    Buy Now
+                    Get Started
                   </a>
                 </li>
               </ul>

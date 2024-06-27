@@ -47,10 +47,10 @@ const NewsTwo = () => {
 
                   <div className="details">
                     <h3 className="title" onClick={toggleModalOne}>
-                      Identify Areas of Improvement
+                      Tone Differentiation Training
                     </h3>
-                    <p className="date">
-                      Understand Proficiency and Challenges
+                    <p className="job">
+                    Improve your ability to hear and distinguish between different tones.
                     </p>
                   </div>
                   {/* End details */}
@@ -167,10 +167,10 @@ const NewsTwo = () => {
 
                   <div className="details">
                     <h3 className="title" onClick={toggleModalTwo}>
-                      Weekly Customized Milestones
+                    Pitch-Perfect Tone Practice
                     </h3>
-                    <p className="date">
-                      Stay motivated with a clear roadmap
+                    <p className="job">
+                    Practice speaking with accurate tones using our pitch adjustment tool.
                     </p>
                   </div>
                   {/* End details */}
@@ -292,10 +292,10 @@ const NewsTwo = () => {
 
                   <div className="details">
                     <h3 className="title" onClick={toggleModalThree}>
-                      Tailored Resources
+                    Real-World Conversation Practice
                     </h3>
-                    <p className="date">
-                      Practice targeted to your goals 
+                    <p className="job">
+                    Hone your tonal skills in real-world situations through interactive AI conversations. 
                     </p>
                   </div>
                   {/* END DETAILS */}

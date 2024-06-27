@@ -31,7 +31,7 @@ const AboutThree = () => {
                   data-aos-duration="1200"
                 >
                   <span>About Convident</span>
-                  <h3>Overcome the Intermediate Plateau</h3>
+                  <h3>How we all started out learning language</h3>
                 </div>
                 <div
                   className="text"
@@ -39,9 +39,9 @@ const AboutThree = () => {
                   data-aos-duration="1200"
                 >
                   <p>
-                    Feeling lost and demotivated as an intermediate language learner?
-                    Convident is here to help you measure progress in your language
-                    learning journey with a clear roadmap to fluency. 
+                  When my best friend tried learning Chinese, he picked up the phrase "你在干什么" (what are you doing). But every time he said it, his pronunciation made it sound like... well, let's just say it meant something entirely different! <br></br> <br></br>
+ 
+ It's not just us! Nearly 75% of the 30 million people learning Chinese find tones to be one of the biggest challenges... So don’t feel like you’re alone! 
                   </p>
                 </div>
                 <div

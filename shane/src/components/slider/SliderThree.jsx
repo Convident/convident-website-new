@@ -23,9 +23,18 @@ const Slider = () => {
 
             <div className="job_wrap">
               <span className="job">
-                Conversing confidently
+                Master tones, master conversations
                 <span className="overlay_effect"></span>
               </span>
+            </div>
+            <div className="job_wrap_2">
+              <div className="job2">
+              Grammar? Sure, but what about true FLUENCY? It's all about pronunciation, tempo, and the art of speaking. We care more about HOW you say it than WHAT you say. Speaking perfectly? No. Being easily understood? Yes!
+              
+              <span className="overlay_effect"></span> 
+              </div>
+              
+              
             </div>
             {/* End designation */}
           </div>

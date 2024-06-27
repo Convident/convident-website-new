@@ -5,15 +5,17 @@ import HomeTwo from "../views/all-home-version/HomeTwo";
 import HomeThree from "../views/all-home-version/HomeThree";
 import HomeFour from "../views/all-home-version/HomeFour";
 import NotFound from "../views/NotFound";
+import SignupPage from "../components/SignupPage";
+import Faq from "../components/Faq";
 import { Routes, Route } from "react-router-dom";
 
 const AllRouter = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Preview />} />
-        <Route path="/home-one" element={<HomeOne />} />
-        <Route path="/home-two" element={<HomeTwo />} />
+        <Route path="/" element={<HomeThree />} />
+        <Route path="/beta-sign-up" element={<SignupPage/>} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/home-three" element={<HomeThree />} />
         <Route path="/home-four" element={<HomeFour />} />
         <Route path="*" element={<NotFound />} />

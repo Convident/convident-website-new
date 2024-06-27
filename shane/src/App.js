@@ -15,7 +15,7 @@ const App = () => {
     <div className="shane_tm_all_wrap">
       <ScrollToTop />
       
-      <HomeThree />
+      <AllRouter />
     </div>
   );
 };

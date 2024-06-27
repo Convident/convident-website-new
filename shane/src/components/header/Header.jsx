@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import Social from "../SocialTwo";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -38,10 +39,12 @@ const Header = () => {
               offset={-200}
             >
               <li>
-                <a href="#home">Home</a>
+              <a href="/">Home</a>
+                
               </li>
               <li>
-                <a href="#about">About</a>
+              <a href="/#about">About</a> 
+              
               </li>
               {/*
               <li>
@@ -49,20 +52,19 @@ const Header = () => {
               </li>
   */}
               <li>
-                <a href="#news">Features</a>
+                <a href="/#news">Features</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="/faq">FAQ</a>
               </li>
               <li>
-                <a
-                  className="white-fill-bg btn-outline btn_sm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://themeforest.net/item/shane-react-personal-portfolio-template/32642263"
-                >
-                  Get Started
-                </a>
+                
+                  <Link
+                      to="/beta-sign-up"
+                      className="white-fill-bg btn-outline btn_sm"
+                      rel="noreferrer"
+                    >Beta Sign Up</Link>
+                  
               </li>
             </Scrollspy>
           </div>
@@ -107,34 +109,34 @@ const Header = () => {
             <div className="dropdown_inner">
               <ul className="anchor_nav">
                 <li className="current">
-                  <a href="#home" onClick={handleClick}>
+                  <a href="/" onClick={handleClick}>
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#about" onClick={handleClick}>
+                  <a href="/#about" onClick={handleClick}>
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#news" onClick={handleClick}>
+                  <a href="/#news" onClick={handleClick}>
                     Features
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" onClick={handleClick}>
-                    Contact
+                  <a href="/faq" onClick={handleClick}>
+                    FAQ
                   </a>
                 </li>
                 <li>
-                  <a
-                    className="white-fill-bg btn-outline btn_sm"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://themeforest.net/"
-                  >
-                    Get Started
-                  </a>
+                  
+                  <Link
+                      to="/beta-sign-up"
+                      className="white-fill-bg btn-outline btn_sm"
+                      rel="noreferrer"
+                    >Beta Sign Up</Link>
+                    
+                  
                 </li>
               </ul>
               <div className="social-menu">

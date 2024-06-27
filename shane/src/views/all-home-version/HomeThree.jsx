@@ -25,6 +25,7 @@ const HomeThree = () => {
       
 
       <About />
+      <Video />
       {/* End About Section */}
 
       <Skills />
@@ -49,7 +50,9 @@ const HomeThree = () => {
               <div className="left" data-aos="fade-up" data-aos-duration="1200">
                 <div className="shane_tm_title">
                   <span>Testimonials</span>
-                  <h3>Achieve your language learning goals</h3>
+                  <h3>Potential Applications</h3>
+                  <h6><br></br>For those seeking to understand and master tonal accuracy in their language learning journey
+                    </h6>
                 </div>
               </div>
 
@@ -71,7 +74,7 @@ const HomeThree = () => {
 
       
 
-      <Video />
+      
       {/* End Video Section */}
 
       {/*<Portfolio />*/}
